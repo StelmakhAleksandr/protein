@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Application.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>core\figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>core\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>core\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>core\figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>core\figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{910a02fa-d75f-4d8e-bddb-1b76891f3e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\figure">
+      <UniqueIdentifier>{473d2b5f-1877-443f-abb6-b78b1dcbfdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\shaders">
+      <UniqueIdentifier>{c5aa2aa5-98a4-4bcb-8de5-d3b3bd1d6175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\shaders\glsl">
+      <UniqueIdentifier>{1bc03ab6-af4f-4e9a-a5b8-6697c6f07fc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>core\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>core\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>core\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>core\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>core\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.vs">
+      <Filter>core\shaders\glsl</Filter>
+    </None>
+    <None Include="vertex.vs">
+      <Filter>core\shaders\glsl</Filter>
+    </None>
+    <None Include="blur.glsl">
+      <Filter>core\shaders\glsl</Filter>
+    </None>
+    <None Include="test.glsl">
+      <Filter>core\shaders\glsl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\coordinates.png" />
+  </ItemGroup>
+</Project>
